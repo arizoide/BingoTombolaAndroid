@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.JogarActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <uc.senac.br.bingotombola.util.AspectRatioImageView
+        android:id="@+id/bingoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bingo_cartela_bg" />
+
+    <TextView
+        android:id="@+id/num1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="205dp"
+        android:text="01"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="@id/bingoImageView"
+        app:layout_constraintTop_toTopOf="@id/bingoImageView" />
+
+    <TextView
+        android:id="@+id/num2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:text="02"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/num1TextView"
+        app:layout_constraintTop_toBottomOf="@+id/num1TextView" />
+
+    <TextView
+        android:id="@+id/num3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:text="03"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/num2TextView"
+        app:layout_constraintTop_toBottomOf="@+id/num2TextView" />
+
+    <TextView
+        android:id="@+id/num4TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:text="04"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="@+id/num3TextView"
+        app:layout_constraintTop_toBottomOf="@+id/num3TextView" />
+
+    <TextView
+        android:id="@+id/num5TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:text="05"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="@+id/num4TextView"
+        app:layout_constraintTop_toBottomOf="@+id/num4TextView" />
+
+    <TextView
+        android:id="@+id/num6TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="16"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num1TextView"
+        app:layout_constraintTop_toTopOf="@+id/num1TextView" />
+
+    <TextView
+        android:id="@+id/num7TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="17"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num2TextView"
+        app:layout_constraintTop_toTopOf="@+id/num2TextView" />
+
+    <TextView
+        android:id="@+id/num8TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="18"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num3TextView"
+        app:layout_constraintTop_toTopOf="@+id/num3TextView" />
+
+    <TextView
+        android:id="@+id/num9TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="19"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num4TextView"
+        app:layout_constraintTop_toTopOf="@+id/num4TextView" />
+
+    <TextView
+        android:id="@+id/num10TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="20"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num5TextView"
+        app:layout_constraintTop_toTopOf="@+id/num5TextView" />
+
+    <TextView
+        android:id="@+id/num11TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="31"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num6TextView"
+        app:layout_constraintTop_toTopOf="@+id/num6TextView" />
+
+    <TextView
+        android:id="@+id/num12TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="32"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num7TextView"
+        app:layout_constraintTop_toTopOf="@+id/num7TextView" />
+
+    <TextView
+        android:id="@+id/num13TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="00"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num8TextView"
+        app:layout_constraintTop_toTopOf="@+id/num8TextView" />
+
+    <TextView
+        android:id="@+id/num14TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="33"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num9TextView"
+        app:layout_constraintTop_toTopOf="@+id/num9TextView" />
+
+    <TextView
+        android:id="@+id/num15TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="34"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num10TextView"
+        app:layout_constraintTop_toTopOf="@+id/num10TextView" />
+
+    <TextView
+        android:id="@+id/num16TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="46"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num11TextView"
+        app:layout_constraintTop_toTopOf="@+id/num11TextView" />
+
+    <TextView
+        android:id="@+id/num17TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="47"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num12TextView"
+        app:layout_constraintTop_toTopOf="@+id/num12TextView" />
+
+    <TextView
+        android:id="@+id/num18TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="48"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num13TextView"
+        app:layout_constraintTop_toTopOf="@+id/num13TextView" />
+
+    <TextView
+        android:id="@+id/num19TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="49"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num14TextView"
+        app:layout_constraintTop_toTopOf="@+id/num14TextView" />
+
+    <TextView
+        android:id="@+id/num20TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="50"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num15TextView"
+        app:layout_constraintTop_toTopOf="@+id/num15TextView" />
+
+    <TextView
+        android:id="@+id/num21TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="61"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num16TextView"
+        app:layout_constraintTop_toTopOf="@+id/num16TextView" />
+
+    <TextView
+        android:id="@+id/num22TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="62"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@id/num17TextView"
+        app:layout_constraintTop_toTopOf="@+id/num17TextView" />
+
+    <TextView
+        android:id="@+id/num23TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="63"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num18TextView"
+        app:layout_constraintTop_toTopOf="@+id/num18TextView" />
+
+    <TextView
+        android:id="@+id/num24TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="64"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num19TextView"
+        app:layout_constraintTop_toTopOf="@+id/num19TextView" />
+
+    <TextView
+        android:id="@+id/num25TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="65"
+        android:textSize="40dp"
+        app:layout_constraintStart_toEndOf="@+id/num20TextView"
+        app:layout_constraintTop_toTopOf="@+id/num20TextView" />
+
+</android.support.constraint.ConstraintLayout>
